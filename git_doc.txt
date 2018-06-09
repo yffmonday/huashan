@@ -5,3 +5,10 @@
    git pull origin master
 2. push  
    git push origin master
+3. 如果远程分支已经被修改了，那么其他人推送时需要先拉取。
+   git pull origin master
+   此时进入merging状态自己手动解决冲突
+   git add fileName
+   git commit -m "注释"  --注意此时不要带文件名
+   git push origin master
+
