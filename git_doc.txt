@@ -1,0 +1,7 @@
+尚硅谷git学习笔记
+1. pull = fecth + merge
+   git fetch origin master
+   git merge origin/master
+   git pull origin master
+2. push  
+   git push origin master
